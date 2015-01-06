@@ -14,5 +14,15 @@
     <![endif]-->
   </head>
   <body>
+    <div id="example"></div>
+
+    <script src="bower_components/react/react.js"></script>
+    <script src="bower_components/react/JSXTransformer.js"></script>
+    <script type="text/jsx">
+      React.render(
+        <h1>Hello World!</h1>,
+        document.getElementById('example')
+      )    
+    </script>
   </body>
 </html>
