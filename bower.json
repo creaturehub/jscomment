@@ -1,0 +1,19 @@
+{
+  "name": "jscomments",
+  "version": "0.1.0",
+  "authors": [
+    "Phil <birkal@outlook.com>"
+  ],
+  "description": "React Comments",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.12.2"
+  }
+}
