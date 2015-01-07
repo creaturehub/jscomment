@@ -22,6 +22,11 @@ app.get('/comments', function(req, res) {
   res.json(FIXTURE); 
 });
 
+app.post('/comments', function(req, res) {
+  FIXTURE.push(req.body);   
+  res.json(FIXTURE);
+});
+
 app.listen(3000, function() {
   console.log('Listening on http://localhost:3000\n');
 });
