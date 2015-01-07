@@ -1,0 +1,16 @@
+{
+  "name": "jscomments",
+  "version": "0.1.0",
+  "description": "JavaScript Comments",
+  "main": "server.js",
+  "author": "Phil <birkal@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.10.7",
+    "morgan": "^1.5.1"
+  }
+}
